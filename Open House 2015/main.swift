@@ -8,38 +8,34 @@
 
 import Foundation
 
-var inputStr: String
-var inputInt: Int
+welcomeMessage()
 
-print("Welcome to Seton Hall Prep Open House 2015!\nPlease enter your name to continue.")
-
-inputStr = inputString()
-
-print("Welcome, " + inputStr)
-
-print("Please enter your age:")
-
-inputInt = inputInteger()
-
-
-if inputInt > 18 && inputInt <= 25 {
-    
-    print("I see you're probably out of college. 🍻\n")
-
-} else if inputInt <= 62 && inputInt >= 25 {
-    
-    print("I see you're hard at work. 😁\n")
-    
-} else if inputInt <= 75 && inputInt >= 62 {
-    
-    print("I see you're probably enjoying retirement. 😎\n")
-    
-}
-
-print("Which department would you like to know more about?")
-print("1-Theology\n2-English\n3-History")
-
+/*
 if inputInteger() == 1 {
-    print("Theology is the queen of the sciences.")
+    sleep(2)
+    print("Theology is the philosophical reflection on the meaning of human experience and the meaning of the Christian tradition.\n")
+    sleep(3)
+    print("Its faculty members are:\nJoseph Alexander (chairman)\n\nRalph Dellanno\n\nJim Incardona\n\nKevin McNulty\n\nJanet Kenworthy\n\nJonathan Lace\n\nRobert Dooley\n\nMsgr. Robert Harahan\n\nSharon Rondinella\n\nVincent McMahon\n\nWalter McMahon\n\nWilliam Ward\n\nFr. Jim White\n\nJohn Egan\n\n")
+    welcomeMessage()
+    
+} else if inputInt == 2 {
+    print("The English department teaches students the principles of literary criticism.")
 }
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
